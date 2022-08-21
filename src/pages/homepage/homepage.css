@@ -1,5 +1,5 @@
 .logo_card {
-    border: 1px solid black;
+    border: 1px solid rgb(34, 150, 30);
     padding: 0px;
   }
   .devider_font {
@@ -10,7 +10,7 @@
   }
   body {
     background: #141414;
-    color: #ffffff;
+    color: #f7bdbd;
   }
   
   .movie-app > .row {
@@ -20,30 +20,30 @@
   
   .image-container {
     position: relative;
-    width: 200px;
-    height: 300px;
-    transition: transform 0.2s;
+    width: 250px;
+    height: 350px;
+    transition: transform 0.5s;
   }
   
   .image-container:hover {
     cursor: pointer;
-    transform: scale(1.1);
+    transform: scale(1.5);
   }
   
   .image-container:hover .overlay {
-    opacity: 1;
+    opacity: 3;
   }
   
   .overlay {
     position: absolute;
-    /* background: rgba(0, 0, 0, 0.8); */
+     background: rgba(0, 0, 0, 0.8); 
     width: 200px;
     transition: 0.5s ease;
     /* opacity: 0; */
     /* bottom: 0; */
     /* color: black; */
     font-size: 20px;
-    /* padding: 20px; */
+     padding: 20px; 
     text-align: center;
   }
   .f-20{
